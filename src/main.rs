@@ -1,5 +1,3 @@
 fn main() {
-    println!("Hello, world!");
-
-
+    println!("{}", 6. % 2.5);
 }
