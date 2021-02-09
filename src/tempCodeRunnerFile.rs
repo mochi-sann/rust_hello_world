@@ -6,11 +6,10 @@ fn main() {
         a: i32,
         b: i32,
     }
-
     let index = a % k;
     if a + index <= b {
         println!("OK");
-    } else if a + index {
-
+    } else {
+        println!("NG");
     }
 }
